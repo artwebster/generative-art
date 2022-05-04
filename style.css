@@ -1,0 +1,63 @@
+* {
+  background-color: black;
+}
+
+html {
+  font-size: 90%;
+}
+
+#canvas {
+  width: 1600px;
+  height: 800px;
+  display: relative;
+  overflow: hidden;
+  position: relative;
+}
+
+.ui-wrapper {
+  display: flex;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-wrapper > * {
+  color: white;
+}
+
+.palette-wrapper {
+  display: flex;
+  border: 1px solid rgb(122, 122, 122);
+  height: 20px;
+  width: 100px;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.palette-locked {
+  border: 1px solid white;
+}
+
+.canvas-wrapper {
+  width:100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position:relative;
+}
+
+#newArt {
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.dark-text {
+  color: rgb(114, 114, 114);
+}
