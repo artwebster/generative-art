@@ -6,6 +6,8 @@ The idea behind this project is to create a site with Javascript (and a little C
 
 ## Current Version:
 
+**Live demo:** https://arts-generative-art.netlify.app/
+
 ![Current Version](https://user-images.githubusercontent.com/97937045/166631494-9c80a3dd-8bfd-4685-911c-cf135f8842c3.png)
 
 * "New Art" button to generate a new image
